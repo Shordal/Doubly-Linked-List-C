@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DA5E64871FB0E7BD00B509CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5E64861FB0E7BD00B509CF /* main.cpp */; };
+		DA5E64951FB0E88800B509CF /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5E648D1FB0E88800B509CF /* Car.cpp */; };
+		DA5E64961FB0E88800B509CF /* DoublyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5E64911FB0E88800B509CF /* DoublyLinkedList.cpp */; };
+		DA5E64971FB0E88800B509CF /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA5E64921FB0E88800B509CF /* Plane.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,14 @@
 /* Begin PBXFileReference section */
 		DA5E64831FB0E7BD00B509CF /* Doubly Linked List C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Doubly Linked List C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5E64861FB0E7BD00B509CF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DA5E648D1FB0E88800B509CF /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		DA5E648E1FB0E88800B509CF /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		DA5E648F1FB0E88800B509CF /* Car.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
+		DA5E64901FB0E88800B509CF /* DoublyLinked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoublyLinked.h; sourceTree = "<group>"; };
+		DA5E64911FB0E88800B509CF /* DoublyLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoublyLinkedList.cpp; sourceTree = "<group>"; };
+		DA5E64921FB0E88800B509CF /* Plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plane.cpp; sourceTree = "<group>"; };
+		DA5E64931FB0E88800B509CF /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
+		DA5E64941FB0E88800B509CF /* Plane.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Plane.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				DA5E64861FB0E7BD00B509CF /* main.cpp */,
+				DA5E648D1FB0E88800B509CF /* Car.cpp */,
+				DA5E648E1FB0E88800B509CF /* Car.h */,
+				DA5E648F1FB0E88800B509CF /* Car.hpp */,
+				DA5E64901FB0E88800B509CF /* DoublyLinked.h */,
+				DA5E64911FB0E88800B509CF /* DoublyLinkedList.cpp */,
+				DA5E64921FB0E88800B509CF /* Plane.cpp */,
+				DA5E64931FB0E88800B509CF /* Plane.h */,
+				DA5E64941FB0E88800B509CF /* Plane.hpp */,
 			);
 			path = "Doubly Linked List C++";
 			sourceTree = "<group>";
@@ -119,6 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5E64951FB0E88800B509CF /* Car.cpp in Sources */,
+				DA5E64961FB0E88800B509CF /* DoublyLinkedList.cpp in Sources */,
+				DA5E64971FB0E88800B509CF /* Plane.cpp in Sources */,
 				DA5E64871FB0E7BD00B509CF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
